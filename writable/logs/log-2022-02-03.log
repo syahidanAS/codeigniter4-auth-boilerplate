@@ -1,0 +1,8 @@
+CRITICAL - 2022-02-03 06:55:48 --> Expired token
+#0 C:\Users\syahi\Documents\dev\php\weknownow\app\Controllers\Me.php(27): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', Object(Firebase\JWT\Key))
+#1 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(825): App\Controllers\Me->index()
+#2 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Me))
+#3 C:\Users\syahi\Documents\dev\php\weknownow\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\syahi\Documents\dev\php\weknownow\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\syahi\Documents\dev\php\weknownow\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\syahi\\...')
+#6 {main}
